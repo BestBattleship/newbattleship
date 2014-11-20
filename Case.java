@@ -6,7 +6,7 @@ public class Case {
 		public Case(Position p){
 			
 			this.position_case = p;
-			this.etat_case = etat.intact;// essai
+			this.etat_case = etat.intact;
 			
 
 	}
