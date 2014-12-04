@@ -7,13 +7,10 @@ public class Utilisateur extends Joueur {
 	}
 
 
-	public boolean tir(Zone z)
-			throws TirImpossible
-			{
+	public boolean tir(Zone z){
 
 		if(z.getEtat_zone() != etat.intact){
 			/*pas d'exception c'est un comportement normal !*/
-			throw new TirImpossible();
 
 		}
 		else{
@@ -49,9 +46,7 @@ public class Utilisateur extends Joueur {
 			}
 
 
-	public boolean placer(Orientation o, Navire n, Zone z)
-			throws ErreurPlacement
-			{
+	public boolean placer(Orientation o, Navire n, Zone z){
 
 		int a = z.getX();
 		int b = z.getY();
@@ -76,7 +71,6 @@ public class Utilisateur extends Joueur {
 
 		else { 
 
-			throw new ErreurPlacement();
 
 		}
 			}
