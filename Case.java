@@ -7,7 +7,7 @@ public class Case {
 			
 			this.position_case = p;
 			this.etat_case = etat.intact;
-			
+			// essai 
 
 	}
 }
