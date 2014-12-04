@@ -1,5 +1,5 @@
 
-public  enum etat {
+public enum etat {
 	touche,
 	intact,
 	rate;

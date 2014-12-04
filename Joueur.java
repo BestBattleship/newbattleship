@@ -4,6 +4,9 @@ public abstract class Joueur {
 	private String nom;
 	private Flotte flotte;
 
+	public Joueur(){
+		this.nom = "aucun";
+	}
 	public String getNom() {
 		return nom;
 	}
@@ -16,20 +19,4 @@ public abstract class Joueur {
 	public void setFlotte(Flotte flotte) {
 		this.flotte = flotte;
 	}
-
-
-	public Joueur(){
-		this.nom = "Aucun";
-	}
-/* A implémenter 
-	public boolean position_navire (){
-
-	}
-	public boolean cases_touchees(){
-
-	}
-	public boolean case_ciblee(){
-
-	}
-	*/
 }

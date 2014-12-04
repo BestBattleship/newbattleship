@@ -1,16 +1,35 @@
-import javax.swing.text.Position;
-
-
 public abstract class Navire {
 
 	private String nom;
 	private  int robustesse;
-	private Position position_navire;
-	
+	private int X;
+	private int Y;
+	private Orientation orientation;
+
 	public Navire() {
-	
+
 		this.nom = "Aucun";
 		this.robustesse = 0;
+		this.X = 0;
+		this.Y = 0;
+	}
+
+	public int getX(){
+
+		return X;
+	}
+
+	public int getY(){
+
+		return Y;
+	}
+
+	public void setX(int x) {
+		this.X = x;
+	}
+
+	public void setY(int y) {
+		this.Y = y;
 	}
 
 	public String getNom() {
@@ -29,16 +48,11 @@ public abstract class Navire {
 		this.robustesse = robustesse;
 	}
 
-	public Position getPosition() {
-		return position_navire;
+	public Orientation getOrientation() {
+		return this.orientation;
 	}
 
-	public void setPosition(Position position) {
-		this.position_navire = position;
+	public void setOrientation(Orientation o) {
+		this.orientation = o;
 	}
-	
-	
-	
-	
-	
 }
