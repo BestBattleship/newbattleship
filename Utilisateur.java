@@ -46,7 +46,7 @@ public class Utilisateur extends Joueur {
 			}
 
 
-	public boolean placer(Orientation o, Navire n, Zone z){
+	public boolean  placer (Orientation o, Navire n, Zone z){
 
 		int a = z.getX();
 		int b = z.getY();
@@ -59,8 +59,10 @@ public class Utilisateur extends Joueur {
 
 			return true;
 		}
+		
+		
 
-		else if(o == Orientation.horizontal && b + n.getRobustesse() < 11){
+		if (o == Orientation.horizontal && b + n.getRobustesse() < 11){
 
 			z.setNavire(n);
 			n.setX(a);
@@ -68,11 +70,12 @@ public class Utilisateur extends Joueur {
 
 			return true;
 		}
+		return false;
 
-		else { 
+		
+	}
 
-
-		}
-			}
-
+			
 }
+
+
