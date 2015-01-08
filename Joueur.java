@@ -3,6 +3,7 @@ public abstract class Joueur {
 
 	private String nom;
 	private Flotte flotte;
+	private Grille grille;
 
 	public Joueur(){
 		this.nom = "aucun";

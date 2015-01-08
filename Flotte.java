@@ -1,6 +1,14 @@
 import java.util.ArrayList;
 
 
+/**
+ * Class Flotte définie par une <b>robustesseFlotte</b> et une @see ArrayList de <b>Bateau</b> 
+ * 
+ * @author BANGRE Hassan ~ SEYCHA Senthène ~ SOLLE Quentin ~ JEBRY Fatima-Zahra
+ * @version Projet Bataille Navale 
+ */ 
+
+
 public class Flotte {
 	
 	private int robustesseFlotte = 0;

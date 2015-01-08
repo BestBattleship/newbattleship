@@ -1,4 +1,21 @@
+/**
+ * Class Manager définie par <b> perdu </b> et  <b> n_rob </b>
+ * 
+ * @author BANGRE Hassan ~ SEYCHA Senthène ~ SOLLE Quentin ~ JEBRY Fatima-Zahra
+ * @version Projet Bataille Navale 
+ */ 
+
 public class Manager extends AbstractManager{
+	
+	/**
+	 * Attributs de la class <b>Manager</b>
+	 *     @param perdu
+	 *  Indique si le joueur a perdu (quand perdu =0). Variable de type int.
+	 *     @param n_rob
+	 *  Correspond au nombre de tirs pour couler le Bateau. Variable de type int.
+	 *     
+	 **/
+	
 	private int perdu;
 	private int n_rob;
 	
